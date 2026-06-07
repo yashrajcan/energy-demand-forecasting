@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+env/
+
+# Data files (large)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.h5
+
+# Models
+models/
+*.pkl
+*.joblib
+*.keras
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
